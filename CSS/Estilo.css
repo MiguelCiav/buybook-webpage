@@ -1,0 +1,42 @@
+html,body{
+
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Helvetica;
+
+}
+
+nav{
+
+    background-color: crimson;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul{
+    
+    display: flex;
+    
+}
+
+nav li{
+
+    padding-left: 10px;
+    list-style: none;
+    
+}
+
+nav li a{
+
+    color: gray;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    color: white;
+}
