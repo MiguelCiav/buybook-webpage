@@ -7,6 +7,12 @@ html,body{
 
 }
 
+.logo{
+
+    padding-left: 15px;
+
+}
+
 nav{
 
     background-color: crimson;
@@ -14,7 +20,8 @@ nav{
     color: white;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+
 }
 
 nav ul{
@@ -25,18 +32,28 @@ nav ul{
 
 nav li{
 
-    padding-left: 10px;
+    padding-right: 10px;
     list-style: none;
     
 }
 
 nav li a{
 
-    color: gray;
+    color: white;
     text-decoration: none;
 
 }
 
 nav li a:hover{
-    color: white;
+    
+    color: rgb(68, 0, 0);
+}
+
+.main_section{
+
+    padding: 20%;
+    text-align: center;
+    background-image: url(https://i.imgur.com/izlSbkU.jpg);
+    background-size: cover;
+
 }
