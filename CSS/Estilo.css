@@ -15,7 +15,7 @@ html,body{
 
 nav{
 
-    background-color: crimson;
+    background-color: rgb(27, 25, 25);
     padding: 10px;
     color: white;
     display: flex;
@@ -39,21 +39,22 @@ nav li{
 
 nav li a{
 
-    color: white;
+    color: gray;
     text-decoration: none;
 
 }
 
 nav li a:hover{
     
-    color: rgb(68, 0, 0);
+    color: white
 }
 
 .main_section{
 
     padding: 20%;
     text-align: center;
-    background-image: url(https://i.imgur.com/izlSbkU.jpg);
+    background-image: url(https://i.imgur.com/k5flthD.png);
     background-size: cover;
+    background-position: bottom;
 
 }
