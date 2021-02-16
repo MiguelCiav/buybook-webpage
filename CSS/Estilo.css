@@ -51,10 +51,39 @@ nav li a:hover{
 
 .main_section{
 
-    padding: 20%;
+    padding: 5%;
     text-align: center;
+
+}
+
+.valores{
+
+    height: 90%;
     background-image: url(https://i.imgur.com/k5flthD.png);
     background-size: cover;
     background-position: bottom;
+    padding: 4%;
+
+}
+
+.tarjeta{
+
+    padding: 4%;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    margin: 2%;
+
+}
+
+.tarjeta img{
+
+    margin: 1%;
+}
+
+.valores .seccion_tarjetas{
+
+    padding: 5%;
+    display: flex;
+    text-align: center;
 
 }
