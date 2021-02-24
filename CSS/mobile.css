@@ -1,0 +1,17 @@
+@media (max-width: 600px){
+
+
+    .valores .seccion_tarjetas{
+
+        display: inherit;
+
+    }
+
+    .tarjeta{
+
+        margin: 8%;
+        padding: 6%;
+
+    }
+
+}
