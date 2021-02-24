@@ -1,3 +1,9 @@
+:root{
+
+    --black-color: rgb(27, 25, 25);
+
+}
+
 html,body{
 
     padding: 0px;
@@ -15,7 +21,7 @@ html,body{
 
 nav{
 
-    background-color: rgb(27, 25, 25);
+    background-color: var(--black-color);
     padding: 10px;
     color: white;
     display: flex;
@@ -58,7 +64,7 @@ nav li a:hover{
 
 .valores{
 
-    height: 90%;
+    height: 70%;
     background-image: url(https://i.imgur.com/k5flthD.png);
     background-size: cover;
     background-position: bottom;
@@ -69,9 +75,10 @@ nav li a:hover{
 .tarjeta{
 
     padding: 4%;
-    background-color: rgb(27, 25, 25);
+    background-color: var(--black-color);
     color: white;
     margin: 2%;
+    box-shadow: 2px 2px 6px black;
 
 }
 
@@ -82,7 +89,7 @@ nav li a:hover{
 
 .valores .seccion_tarjetas{
 
-    padding: 5%;
+    padding: 4%;
     display: flex;
     text-align: center;
 
