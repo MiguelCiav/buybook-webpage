@@ -58,7 +58,7 @@ nav li a:hover{
 
 .main_section{
 
-    padding: 5%;
+    padding-top: 5%;
     text-align: center;
 
 }
@@ -69,7 +69,7 @@ nav li a:hover{
     background-image: url(https://i.imgur.com/k5flthD.png);
     background-size: cover;
     background-position: bottom;
-    padding: 4%;
+    padding: 2%;
 
 }
 
@@ -93,5 +93,15 @@ nav li a:hover{
     padding: 4%;
     display: flex;
     text-align: center;
+
+}
+
+.derechos{
+
+    color:white;
+    background-color: var(--black-color);
+    text-align: center;
+    padding: 2%;
+    margin: 0px;
 
 }
