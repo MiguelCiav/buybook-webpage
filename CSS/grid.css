@@ -1,7 +1,28 @@
+:root{
+
+    --black-color: rgb(27, 25, 25);
+    
+}
+
 .container{
 
-    max-width: 900px;
-    margin: auto;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+
+}
+
+
+.container button{
+
+    background-color: var(--black-color);
+    color: white;
+    padding: 5px;
+    padding-right: 35px;
+    padding-left: 35px;
 
 }
 
@@ -19,24 +40,51 @@
 
 .col-2{
 
-    width: 40%;
+    width: 20%;
 
 }
 
 .col-3{
 
-    width: 60%;
+    width: 20%;
 
 }
 
 .col-4{
 
-    width: 80%;
+    width: 20%;
 
 }
 
 .col-5{
 
-    width: 100%;
+    width: 20%;
+
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5{
+
+    padding: 15px;
+    box-shadow: 2px 2px 6px rgb(180, 179, 179);
+    margin: 15px;
+
+}
+
+@media (max-width: 900px){
+
+    .row{
+
+        display: inherit;
+        
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5{
+
+        width: 65%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+    }
 
 }
