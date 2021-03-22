@@ -96,3 +96,17 @@
     }
 
 }
+
+.col-1C{
+
+    width: 75%;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 6px rgb(180, 179, 179);
+    margin: 15px;
+    text-align: left;
+
+}
+
