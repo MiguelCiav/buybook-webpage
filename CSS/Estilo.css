@@ -13,6 +13,7 @@ html,body{
 
 }
 
+
 .logo{
 
     padding-left: 15px;
@@ -111,3 +112,11 @@ nav li a:hover{
 
 }
 
+.pago_texto input{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+    
+}

@@ -1,6 +1,6 @@
 :root{
 
-    --black-color: rgb(27, 25, 25);
+    --black-color: #1b1919;
     
 }
 
@@ -9,18 +9,20 @@
     max-width: 1080px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     text-align: center;
 
 }
 
 .container_compra{
 
-    max-width: 225px;
-    margin: auto;
+    max-width: 700px;
     text-align: center;
-
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -99,13 +101,31 @@
 
 .col-1C{
 
-    width: 75%;
-    padding-right: 45px;
-    padding-top: 15px;
-    padding-left: 25px;
-    padding-bottom: 15px;
+    width: 400px;
+    padding: 25px;
     box-shadow: 2px 2px 6px rgb(180, 179, 179);
     margin: 15px;
+
+}
+
+.col-2C{
+
+    width: 400px;
+    padding: 25px;
+    box-shadow: 2px 2px 6px rgb(180, 179, 179);
+    margin: 15px;
+
+}
+
+.pago_imagen{
+
+    margin: auto;
+    text-align: center;
+
+}
+
+.pago_texto{
+
     text-align: left;
 
 }
