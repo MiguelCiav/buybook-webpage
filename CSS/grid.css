@@ -23,16 +23,21 @@
     margin-bottom: 10%;
     margin-left: auto;
     margin-right: auto;
+
+
 }
 
 
-.container button{
+.boton_general{
 
     background-color: var(--black-color);
     color: white;
     padding: 5px;
     padding-right: 35px;
     padding-left: 35px;
+    width: 95%;
+    border: 0;
+    margin-top: 5px;
 
 }
 
