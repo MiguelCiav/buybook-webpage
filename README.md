@@ -1,2 +1,3 @@
-# Buybook_page
-Página oficial y tienda en línea de la librería virtual BuyBook.
+# BuyBook Webpage
+
+A small frontend project for an online book shop, created in 2023. This project is not currently active.
